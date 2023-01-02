@@ -103,6 +103,9 @@ extension ButtonViewController {
         var dateList = UserDefaults.standard.dictionary(forKey: "List")
         dateList![stringDate] = rot
         UserDefaults.standard.set(dateList, forKey: "List")
+
+        let uuid = UUID().uuidString
+        print(uuid)
     }
 
     // Functions

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3071FA5729633DB900F5AEA9 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3071FA5629633DB900F5AEA9 /* StorageManager.swift */; };
 		3081B99B2962D0A00061F813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081B99A2962D0A00061F813 /* AppDelegate.swift */; };
 		3081B99F2962D0A00061F813 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081B99E2962D0A00061F813 /* ButtonViewController.swift */; };
 		3081B9A22962D0A00061F813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3081B9A02962D0A00061F813 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3071FA5629633DB900F5AEA9 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3081B9972962D0A00061F813 /* Red button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Red button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3081B99A2962D0A00061F813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3081B99E2962D0A00061F813 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3071FA5829633DC000F5AEA9 /* StorageManager */ = {
+			isa = PBXGroup;
+			children = (
+				3071FA5629633DB900F5AEA9 /* StorageManager.swift */,
+			);
+			path = StorageManager;
+			sourceTree = "<group>";
+		};
 		3081B98E2962D0A00061F813 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3081B99A2962D0A00061F813 /* AppDelegate.swift */,
+				3071FA5829633DC000F5AEA9 /* StorageManager */,
 				3081B99E2962D0A00061F813 /* ButtonViewController.swift */,
 				3088ACDA2962EB7400C8F5A8 /* StaticticViewController.swift */,
 				3081B9A02962D0A00061F813 /* Main.storyboard */,
@@ -141,6 +152,7 @@
 				3081B99F2962D0A00061F813 /* ButtonViewController.swift in Sources */,
 				3081B99B2962D0A00061F813 /* AppDelegate.swift in Sources */,
 				3088ACDB2962EB7400C8F5A8 /* StaticticViewController.swift in Sources */,
+				3071FA5729633DB900F5AEA9 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
