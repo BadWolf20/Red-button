@@ -15,9 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
        // UserDefaults.standard.set(false, forKey: "Start")
-        if UserDefaults.standard.bool(forKey: "Start") == false {
-            UserDefaults.standard.set(true, forKey: "Start")
+        let appDelegateStorageManager = StorageManager()
+        if !appDelegateStorageManager.hasFirstLaunch() {
             UserDefaults.standard.set([String: Int](), forKey: "List")
+            appDelegateStorageManager.setHasFirstLaunch(bool: true)
         }
 
         let tabBarController = UITabBarController()
